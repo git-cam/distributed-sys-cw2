@@ -53,7 +53,7 @@ def sensor_statistics(req: func.HttpRequest, rows: SqlRowList) -> func.HttpRespo
             "wind": {
                 "min": row["minWind"],
                 "max": row["maxWind"],
-                "avg": row["AvgWind"],
+                "avg": row["avgWind"],
             },
             "humidity": {
                 "min": row["minHumidity"],
